@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lora:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Шрифты */
+body {
+  font-family: "Lora", serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ======= Навигационная панель ======= */
+.navbar {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #000000, #434343);
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #ffefba;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: "Lora", serif;
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color:  #cc2929;
+  border-bottom: 2px solid  #cc2929;
+}
+
+/* ======= Поисковая строка ======= */
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input {
+  font-family: "Lora", serif;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-form button {
+  font-family: "Lora", serif;
+  background-color: #ffefba;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.search-form button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ======= Футер ======= */
+.footer {
+  padding: 30px 20px;
+  background: linear-gradient(90deg, #434343, #000000);
+  text-align: center;
+  color: #fff;
+}
+
+.footer a {
+  font-family: "Dancing Script", cursive;
+  color: #ffefba;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #fff;
+  border-bottom: 1px solid  #cc2929;
+}
+
+/* ======= Страница ошибки ======= */
+.pnf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.pnf-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 120px;
+  font-weight: bold;
+  color: #434343;
+}
+
+.pnf-heading {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  color: #555;
+}
+
+.pnf-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid #434343;
+  color: #434343;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.pnf-btn:hover {
+  background: #434343;
+  color: #fff;
+}
+
+/* ======= Секция контактов ======= */
+.contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+.contactus h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contactus p {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  color: #555;
+}
+
+/* ======= Кнопки категорий ======= */
+.cat-btn {
+  font-family: "Lora", serif;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #cc2929;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cat-btn:hover {
+  background-color: #434343;
+  color: #fff;
+}
+
+/* ======= Панель управления ======= */
+.dashboard {
+  margin-top: 50px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-menu h4 {
+  font-family: "Dancing Script", cursive;
+  background-color: #434343;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

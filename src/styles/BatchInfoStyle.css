@@ -1,0 +1,92 @@
+.batch-info-container {
+    font-family: 'Lora', serif; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #2d2d2d;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 20px; 
+}
+
+.batch-main-info {
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #434343; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
+}
+
+.batch-main-info h2 {
+    font-family: 'Dancing Script', cursive; 
+    margin-top: 0;
+    color: #ff5c5c !important;
+    font-size: 28px; 
+}
+
+.batch-main-info p {
+    margin: 10px 0;
+    color: #ccc; 
+    font-size: 18px; 
+}
+
+.batch-movements {
+    margin-top: 30px;
+}
+
+.batch-movements h2 {
+    font-family: 'Dancing Script', cursive; 
+    color: #ff5c5c; 
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.movements-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #2d2d2d; 
+    color: #fff; 
+}
+
+.movements-table th, .movements-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #555; 
+}
+
+.movements-table th {
+    background-color: #434343; 
+    color: #ff5c5c; 
+    font-size: 18px;
+}
+
+.movements-table td {
+    color: #ccc; 
+    font-size: 16px;
+}
+
+.movements-table tr:nth-child(even) {
+    background-color: #3a3a3a; 
+}
+
+.btn {
+    font-family: 'Lora', serif; 
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-sm {
+    font-size: 14px;
+}
+
+.btn-danger {
+    background-color: #ff5c5c; 
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #e04e4e;
+}
